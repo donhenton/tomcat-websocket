@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-tomcat 8 redeploy</actionName>
+            <displayName>tomcat 8 redeploy</displayName>
+            <goals>
+                <goal>tomcat7:redeploy</goal>
+            </goals>
+            <properties>
+                <skipTests>true</skipTests>
+            </properties>
+        </action>
+    </actions>
